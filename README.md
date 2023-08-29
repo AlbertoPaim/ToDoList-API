@@ -50,4 +50,10 @@ Uma API simples para gerenciar uma lista de tarefas.
 - **DELETE** /tasks/:id Deleta uma tarefa, desde que esteja marcada como concluída.
 - **GET** /tasks: Lista todas as tarefas.
 
+## Testando as Rotas
+
+Você pode testar as rotas da API usando uma ferramenta para envio de solicitações HTTP, como o [Postman](https://www.postman.com/) ou qualquer outra alternativa similar. Isso permitirá que você explore e interaja com as diferentes funcionalidades da API, incluindo a criação, atualização, deleção e listagem de tarefas.
+
+Certifique-se de usar o método HTTP correto (por exemplo, POST, PUT, DELETE, GET) e fornecer os parâmetros necessários nas solicitações para verificar o funcionamento da API.
+
 O servidor estará executando na porta: http://localhost:3000
