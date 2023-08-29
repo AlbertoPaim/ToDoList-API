@@ -8,7 +8,8 @@ Uma API simples para gerenciar uma lista de tarefas.
 
 - **Criar uma tarefa:** O ID será gerado automaticamente. O título é obrigatório.  
 ![Criar uma tarefa](https://raw.githubusercontent.com/AlbertoPaim/ToDoList-API/main/images/title%20is%20required.png)
-Se o campo "Done" não for informado, será gerado como "false" automaticamente.  
+ 
+- Se o campo "Done" não for informado, será gerado como "false" automaticamente.  
 ![Criar uma tarefa](https://raw.githubusercontent.com/AlbertoPaim/ToDoList-API/main/images/created.png)
 
 - **Atualizar uma tarefa:** Modifique o título e indique se a tarefa foi concluída ou não.  
@@ -16,7 +17,8 @@ Se o campo "Done" não for informado, será gerado como "false" automaticamente.
 
 - **Deletar uma tarefa:**  
 ![Deletar uma tarefa](https://raw.githubusercontent.com/AlbertoPaim/ToDoList-API/main/images/deleted.png)
-Uma tarefa não marcada como feita não pode ser deletada.  
+
+- Uma tarefa não marcada como feita não pode ser deletada.  
 ![Deletar uma tarefa](https://raw.githubusercontent.com/AlbertoPaim/ToDoList-API/main/images/cannot%20delete%20unfi.png)
 
 - **Listar todas as tarefas:** Exibe todas as tarefas existentes, incluindo as modificações feitas.  
