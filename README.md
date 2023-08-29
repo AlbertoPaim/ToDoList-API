@@ -33,25 +33,19 @@ Uma tarefa não marcada como feita não pode ser deletada.
 
 ## Como Instalar
 
-1. Clone este repositório para uma pasta local:
-
-git clone https://github.com/AlbertoPaim/ToDoList-API
+1. Clone este repositório para uma pasta local: git clone https://github.com/AlbertoPaim/ToDoList-API
 
 2. Navegue até a pasta do projeto no terminal.
 
-3. Instale as dependências usando o seguinte comando:
+3. Instale as dependências usando o seguinte comando: npm install
 
-npm install
-
-4. Execute o servidor com o seguinte comando:
-
-npm run dev
+4. Execute o servidor com o seguinte comando: npm run dev
 
 ## Rotas
 
-- **POST /tasks:** Cria uma nova tarefa.
-- **PUT /tasks/:id:** Atualiza uma tarefa existente.
-- **DELETE /tasks/:id:** Deleta uma tarefa, desde que esteja marcada como concluída.
-- **GET /tasks:** Lista todas as tarefas.
+- **POST** /tasks: Cria uma nova tarefa.
+- **PU**T /tasks/:id Atualiza uma tarefa existente.
+- **DELETE** /tasks/:id Deleta uma tarefa, desde que esteja marcada como concluída.
+- **GET** /tasks: Lista todas as tarefas.
 
 O servidor estará executando na porta: http://localhost:3000
